@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         when(diceNum){
             1 -> {
                 mainBinding.imageView.setImageResource(R.drawable.diceone)
-                mainBinding.diceImageView.setImageResource(R.drawable.dicefaceone)
                 mainBinding.diceImageView.isVisible = true
+                mainBinding.diceImageView.setImageResource(R.drawable.dicefaceone)
             }
             2 -> {
                 mainBinding.imageView.setImageResource(R.drawable.dicetwo)
